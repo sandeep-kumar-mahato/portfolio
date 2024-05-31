@@ -1,7 +1,7 @@
 import React from "react";
-import WeatherApp from "./images/WeatherApp.png";
-import Ecommerce from "./images/Ecommerce.png";
-import Glowvista from "./images/glowvista.png";
+import WeatherApp from "./assets/WeatherApp.png";
+import Ecommerce from "./assets/Ecommerce.png";
+import Glowvista from "./assets/glowvista.png";
 
 const projects = [
   {
