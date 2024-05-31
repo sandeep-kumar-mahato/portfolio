@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Dancing+Script:wght@400;700&family=Rye&family=Sacramento&display=swap');
+
+.font-dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
+.font-cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.font-Sacramento {
+    font-family: 'Sacramento', cursive;
+}
+
+.font-Rye {
+    font-family: 'Rye', cursive;
+}
