@@ -16,7 +16,9 @@ const Home = () => {
             Design , Tailwind CSS, Material Icons, Figma, Photoshop.
           </p>
           <button className="font-Rye bg-zinc-600 text-slate-300 p-4 rounded-md mt-4">
-            <a href="https://www.sandeepmahato.live/">RESUME / CV</a>
+            <a href="https://drive.google.com/file/d/1_-tjbdy-2hF6UXb_rZyAtst4cC3Qhk66/view?usp=drive_link">
+              RESUME / CV
+            </a>
           </button>
         </div>
 
