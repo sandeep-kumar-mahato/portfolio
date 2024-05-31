@@ -9,10 +9,8 @@ import {
 const About = () => {
   return (
     <div className="w-full h-screen bg-slate-300">
-      {/* Content */}
       <h1 className="text-4xl font-bold text-center font-Rye pt-4">About</h1>
 
-      {/* Add the content for the About page */}
       <section className="p-12">
         <div className="flex gap-4 items-center">
           <div className="w-12 h-12">

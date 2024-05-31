@@ -1,4 +1,3 @@
-// Navbar.js
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FiHome, FiInfo, FiBriefcase, FiMail } from "react-icons/fi";
@@ -45,7 +44,6 @@ const Navbar = () => {
           </div>
         </nav>
       )}
-      {/* Hanging Bar */}
       <nav className="fixed top-1/2 transform -translate-y-1/2 right-4 z-10">
         <div className="flex flex-col space-y-4 items-center bg-gray-800 text-white p-4 rounded-md">
           {pages.map((page, index) => (

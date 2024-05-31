@@ -1,4 +1,3 @@
-// Home.js
 import React from "react";
 import "./styles.css";
 
@@ -6,7 +5,6 @@ const Home = () => {
   return (
     <>
       <div className="w-full h-screen bg-slate-300 flex justify-center items-center">
-        {/* Content */}
         <div className="w-3/5 pl-28 pr-4">
           <h1 className="text-5xl font-dancing-script pb-4">HI THERE!</h1>
           <h1 className="text-8xl font-cinzel">I'M SANDEEP</h1>
@@ -22,7 +20,6 @@ const Home = () => {
           </button>
         </div>
 
-        {/* Image */}
         <div className="w-2/5 h-full">
           <img
             className="object-cover w-full h-full"

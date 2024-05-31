@@ -1,4 +1,3 @@
-// Projects.js
 import React from "react";
 import WeatherApp from "./images/WeatherApp.png";
 import Ecommerce from "./images/Ecommerce.png";
@@ -7,16 +6,14 @@ import Glowvista from "./images/glowvista.png";
 const projects = [
   {
     title: "Weather App",
-    description:
-      "A weather forecasting application built with HTML and CSS.",
+    description: "A weather forecasting application built with HTML and CSS.",
     link: "https://sandeep-kumar-mahato.github.io/Weather/",
     image: WeatherApp,
     repo: "https://github.com/sandeep-kumar-mahato/Weather",
   },
   {
     title: "E-commerce Website",
-    description:
-      "An online store built using HTML and CSS.",
+    description: "An online store built using HTML and CSS.",
     link: "https://sandeep-kumar-mahato.github.io/Landing-Page-e-commerce-website/",
     image: Ecommerce,
     repo: "https://github.com/sandeep-kumar-mahato/Landing-Page-e-commerce-website",
@@ -29,7 +26,6 @@ const projects = [
     image: Glowvista,
     repo: "https://github.com/sandeep-kumar-mahato/Glow-Vista",
   },
-  // Add more projects as needed
 ];
 
 const Projects = () => {
