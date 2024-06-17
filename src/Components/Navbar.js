@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FiHome, FiInfo, FiBriefcase, FiMail } from "react-icons/fi";
+import profile from "./assets/4283.jpg";
 
 const Navbar = () => {
   const location = useLocation();
@@ -17,10 +18,10 @@ const Navbar = () => {
   return (
     <div className="flex">
       {!isHomePage && (
-        <nav className="flex flex-col justify-between h-screen bg-gray-800 text-white">
+        <nav className="hidden lg:flex flex-col justify-between h-screen bg-gray-800 text-white">
           <img
             className="w-60"
-            src="https://images.unsplash.com/photo-1684607776189-24a70a10a804?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMwfHRvd0paRnNrcEdnfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            src={profile}
             alt="Background"
           />
           <div className="p-4">
